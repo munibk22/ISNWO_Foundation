@@ -5,7 +5,8 @@ import './pricing.css'
 function Pricing() {
     return (<>
         <article className='card-article'>
-            <div className=''><h4>Paypal, Zelle, and Venmo:</h4>
+            <div className=''>
+                <h4>Paypal, Zelle, and Venmo:</h4>
                 {/* <DonateButton />  */}
                 <div id="donate-button-container">
                     <div id="donate-button"></div>

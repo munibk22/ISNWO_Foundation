@@ -1,6 +1,4 @@
 import React from 'react'
-import CoinList from "../pages/CoinList"
-import { WatchListContextProvider } from '../pages/WatchListContext'
 
 export default function Banner() {
     return (
