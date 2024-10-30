@@ -1,14 +1,14 @@
-import React, { createContext, useState } from "react";
+// import React, { createContext, useState } from "react";
 
 
-export const WatchListContext = createContext();
+// export const WatchListContext = createContext();
 
-export const WatchListContextProvider = props => {
-    const [watchList, setWatchList] = useState(["bitcoin", "litecoin", "ethereum"])
+// export const WatchListContextProvider = props => {
+//     const [watchList, setWatchList] = useState(["bitcoin", "litecoin", "ethereum"])
 
-    return (
-        <WatchListContext.Provider value={{ watchList }}>
-            { props.children}
-        </WatchListContext.Provider>
-    )
-}
+//     return (
+//         <WatchListContext.Provider value={{ watchList }}>
+//             { props.children}
+//         </WatchListContext.Provider>
+//     )
+// }

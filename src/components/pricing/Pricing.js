@@ -1,6 +1,6 @@
 import React from 'react';
 import './pricing.css'
-import DonateButton from '../donate/DonateButton';
+// import DonateButton from '../donate/DonateButton';
 
 function Pricing() {
     return (<>

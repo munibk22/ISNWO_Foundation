@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 import './assests/default.css';
 import { useEffect, useRef, useState } from 'react';
-import { CircleTextWrap } from './components/CircleTextWrap';
-import { PayPalScriptProvider } from '@paypal/react-paypal-js';
+// import { CircleTextWrap } from './components/CircleTextWrap';
+// import { PayPalScriptProvider } from '@paypal/react-paypal-js';
 import {
   Head, Nav, Banner, BodyHeader, Hero, Card, Footer, Form, MobileHeader, Main1, Main2,
   Pricing, AOS, ToastContainer, toast,
@@ -49,109 +49,109 @@ function App() {
   }, []);
 
   return (
-    <PayPalScriptProvider options={{ "client-id": process.env.REACT_APP_PAYPAL_CLIENT_ID }}>
-      <div className="app">
-        <Nav />
-        <Head />
+    // <PayPalScriptProvider options={{ "client-id": process.env.REACT_APP_PAYPAL_CLIENT_ID }}>
+    <div className="app">
+      <Nav />
+      <Head />
 
 
-        {/* <section ref ={stickyElementRef} 
+      {/* <section ref ={stickyElementRef} 
     className={isSticky ? 'drop-shadow-filter header-section sticky' : 'hide'}>  
     <MobileHeader  />
     </section> */}
 
-        <BodyHeader />
+      <BodyHeader />
 
 
 
-        {/*Hero Section 1*/}
-        <div className='hero-section text-shadow'>
-          <Hero text={"Welcome to ISNWO Foundation"}
-          //  img={catgirl}
-          />
-        </div>
+      {/*Hero Section 1*/}
+      <div className='hero-section text-shadow'>
+        <Hero text={"Welcome to ISNWO Foundation"}
+        //  img={catgirl}
+        />
+      </div>
 
-        {/* Info Section */}
-        <section className='info-section ' data-aos="zoom-in-right"
-        ><h4>Our mission is to empower individuals and communities through sustainable charitable initiatives.</h4></section>
+      {/* Info Section */}
+      <section className='info-section ' data-aos="zoom-in-right"
+      ><h4>Our mission is to empower individuals and communities through sustainable charitable initiatives.</h4></section>
 
-        {/*Card Section */}
-        <section className='card-section margin-top-1'  >
+      {/*Card Section */}
+      <section className='card-section margin-top-1'  >
 
-          <Card article={art1} />
-          <Card img={imgOne} aosStyle='fade-left' />
-        </section>
-
-
-        {/*Mid-Hero Section 2*/}
-        <div className='hero-section mid-hero margin-top-3 text-shadow'>
-
-          <Hero text={`About Us`}
-            className={"clear-pricing "} />
-
-        </div>
-
-        {/* Main Body */}
+        <Card article={art1} />
+        <Card img={imgOne} aosStyle='fade-left' />
+      </section>
 
 
-        {/* Main Body */}
-        <main className="body-section">
+      {/*Mid-Hero Section 2*/}
+      <div className='hero-section mid-hero margin-top-3 text-shadow'>
 
-          <section className='card-pricing margin-top-1'>
-            <section className="main1" id='infoSection' data-aos="fade-right">
-              <Main1 />
-            </section>
-            <section className="main2" data-aos="fade-left">
-              <Main2 />
-            </section>
-          </section>
-        </main>
-        {/*Mid-Hero Section 3 Pricing*/}
-        <div className='hero-section mid-hero margin-top-3 text-shadow'>
-          <Hero text={"💎 Donation 💎"} className={"clear-pricing hero-section"} />
-        </div>
-
-        {/* Main Body 3rd*/}
-        <main className="body-section">
-
-
-          {/* Pricing Section */}
-          <section className='card-pricing margin-top-1' >
-            <section className='card-col-1'>
-              <Card article={art2} aosStyle='fade-right' />
-              <Card img={img2} aosStyle='fade-right' />
-            </section>
-            <Card article={pricing1} aosStyle='fade-left' />
-          </section>
-
-
-        </main>
-        {/*Mid-Hero Section-4 Form Header */}
-        <div className='hero-section mid-hero margin-top-3'>
-
-          <Hero text={<span className="text-shadow" style={{ fontSize: "1.5rem" }}><span className="hide">⬇️</span>
-            Connect with ISNWO Foundation ⬇️</span>}
-            className={"text-shadow"} />
-
-        </div>
-
-        {/* Main Body-5 Form Section*/}
-        <main className="body-section ">
-
-          {/* Section for Form submission */}
-          <section className="form-section " id='formId'>
-            <Form aosStlye="zoom-in" />
-          </section>
-        </main>
-
-        {/* Section for Footer/Contact us */}
-        <section className='footer' >
-          <hr />
-          <Footer aosStlye="" />
-        </section>
+        <Hero text={`About Us`}
+          className={"clear-pricing "} />
 
       </div>
-    </PayPalScriptProvider>
+
+      {/* Main Body */}
+
+
+      {/* Main Body */}
+      <main className="body-section">
+
+        <section className='card-pricing margin-top-1'>
+          <section className="main1" id='infoSection' data-aos="fade-right">
+            <Main1 />
+          </section>
+          <section className="main2" data-aos="fade-left">
+            <Main2 />
+          </section>
+        </section>
+      </main>
+      {/*Mid-Hero Section 3 Pricing*/}
+      <div className='hero-section mid-hero margin-top-3 text-shadow'>
+        <Hero text={"💎 Donation 💎"} className={"clear-pricing hero-section"} />
+      </div>
+
+      {/* Main Body 3rd*/}
+      <main className="body-section">
+
+
+        {/* Pricing Section */}
+        <section className='card-pricing margin-top-1' >
+          <section className='card-col-1'>
+            <Card article={art2} aosStyle='fade-right' />
+            <Card img={img2} aosStyle='fade-right' />
+          </section>
+          <Card article={pricing1} aosStyle='fade-left' />
+        </section>
+
+
+      </main>
+      {/*Mid-Hero Section-4 Form Header */}
+      <div className='hero-section mid-hero margin-top-3'>
+
+        <Hero text={<span className="text-shadow" style={{ fontSize: "1.5rem" }}><span className="hide">⬇️</span>
+          Connect with ISNWO Foundation ⬇️</span>}
+          className={"text-shadow"} />
+
+      </div>
+
+      {/* Main Body-5 Form Section*/}
+      <main className="body-section ">
+
+        {/* Section for Form submission */}
+        <section className="form-section " id='formId'>
+          <Form aosStlye="zoom-in" />
+        </section>
+      </main>
+
+      {/* Section for Footer/Contact us */}
+      <section className='footer' >
+        <hr />
+        <Footer aosStlye="" />
+      </section>
+
+    </div>
+    // </PayPalScriptProvider>
   );
 }
 
