@@ -107,8 +107,8 @@ function App() {
         </section>
       </main>
       {/*Mid-Hero Section 3 Pricing*/}
-      <div className='hero-section mid-hero margin-top-3 text-shadow'>
-        <Hero text={"💴 Donation 💴"} className={"clear-pricing hero-section"} id='donate' />
+      <div className='hero-section mid-hero margin-top-3 text-shadow' id='donate'>
+        <Hero text={"💴 Donation 💴"} className={"clear-pricing hero-section"} />
       </div>
 
       {/* Main Body 3rd*/}

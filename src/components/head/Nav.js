@@ -12,7 +12,7 @@ export default function Nav() {
                 <a href="#learnmore">Learn More</a>
             </li>
             <li className="">
-                <a href="#about">Donate Now</a>
+                <a href="#donate">Donate Now</a>
             </li>
 
             <li className="">
