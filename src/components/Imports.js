@@ -44,7 +44,7 @@ export const art2 = <h4 className='card-article '>
 
 export const pricing1 = <Pricing />;
 export const imgOne = <img alt='Group charity poster' src='https://i.imgur.com/d2ClI7D.png' className='imgOne ' />;
-export const img2 = <img alt='Helping famalies poster' src='https://i.imgur.com/2qjO5wp.png' className='img3 box-shadow' />;
+export const img2 = <img alt='Helping famalies poster' src='https://i.imgur.com/8KJ2Kmz.png' className='img3 box-' />;
 
 
 

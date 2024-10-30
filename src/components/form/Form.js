@@ -23,7 +23,7 @@ export default function Form({ aosStlye }) {
       .then(
         () => {
           console.log('SUCCESS!');
-          toast.success('Message Submitted!', { autoClose: 2500, position: 'top-right' }); // Auto-closes after 3 seconds
+          toast.success('Your message was sent 🫒', { autoClose: 2500, position: 'top-right' }); // Auto-closes after 3 seconds
         },
         (error) => console.log('FAILED...', error.text),
       );

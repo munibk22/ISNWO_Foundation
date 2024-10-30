@@ -3,11 +3,10 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 import './assests/default.css';
 import { useEffect, useRef, useState } from 'react';
-// import { CircleTextWrap } from './components/CircleTextWrap';
 // import { PayPalScriptProvider } from '@paypal/react-paypal-js';
 import {
   Head, Nav, Banner, BodyHeader, Hero, Card, Footer, Form, MobileHeader, Main1, Main2,
-  Pricing, AOS, ToastContainer, toast,
+  AOS, ToastContainer,
   art1, art2, pricing1, imgOne, img2
 } from './components/Imports.js';
 
@@ -61,8 +60,6 @@ function App() {
     </section> */}
 
       <BodyHeader />
-
-
 
       {/*Hero Section 1*/}
       <div className='hero-section text-shadow'>
