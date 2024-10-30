@@ -21,6 +21,8 @@ import 'aos/dist/aos.css';
 // import PricePanel from './pricepanel/PricePanel'
 // import Team from './body/Team'
 import BodyHeader from './body/BodyHeader.js';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 export const art1 = <article className='card-article' data-aos="fade-right">
@@ -73,5 +75,6 @@ export {
   Main1, Main2,
   Pricing,
   AOS,
-  // Footer,PricePanel,Team ,ToastContainer, toast,
+  // PricePanel,Team ,
+  ToastContainer,
 };

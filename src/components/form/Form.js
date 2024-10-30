@@ -3,13 +3,14 @@ import { useRef } from 'react';
 import './form.css'
 import emailjs from '@emailjs/browser';
 // import emailjs from 'emailjs-com';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 export default function Form({ aosStlye }) {
   const formRef = useRef();
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
     console.log('Form submitted!2', formRef);
 
     // const myForm = event.target;
@@ -22,6 +23,7 @@ export default function Form({ aosStlye }) {
       .then(
         () => {
           console.log('SUCCESS!');
+          toast.success('Message Submitted!', { autoClose: 2500, position: 'top-right' }); // Auto-closes after 3 seconds
         },
         (error) => console.log('FAILED...', error.text),
       );

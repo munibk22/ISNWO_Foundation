@@ -12,7 +12,6 @@ import {
 } from './components/Imports.js';
 
 
-
 function App() {
   const stickyElementRef = useRef(null);
   const [isStickyActive, setIsStickyActive] = useState(false);
@@ -51,6 +50,7 @@ function App() {
   return (
     // <PayPalScriptProvider options={{ "client-id": process.env.REACT_APP_PAYPAL_CLIENT_ID }}>
     <div className="app">
+      <ToastContainer />
       <Nav />
       <Head />
 
