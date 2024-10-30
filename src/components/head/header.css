@@ -1,0 +1,292 @@
+
+.head {
+    /* width:100vw;     */
+    min-height: 35vh;
+    /* background: linear-gradient(to bottom, #114810, #009d52);      */
+    display:grid;
+    gap: .5rem;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows:  1fr .5fr;
+    align-items: center;
+    justify-items: center;
+    text-decoration: none;
+  }
+
+  .headrow0 {
+    grid-row:1/1;
+  }
+  .headrow1 {
+    grid-row: 2/3;
+  }
+  .headrow2 {
+    grid-row: 3/4;
+  }
+  .headrow2b {
+    width: 250px;
+    display: grid;
+    place-items: center;
+  }
+  .headrow3 {
+    grid-row: 4/5;
+  }
+  .headrow4 {
+    grid-row: 5/6;
+  }
+  .headrow-2-attributes {
+    gap: 1rem;
+    justify-content: center;
+    text-wrap: nowrap;
+    }
+    .headerimg2{
+    /* background-image: url('https://images.pexels.com/photos/1372014/pexels-photo-1372014.jpeg'); */
+    background-repeat: no-repeat;
+    opacity: .8;
+    /* width: -webkit-fill-available;
+    object-fit: fill; */
+    position: absolute;
+    top: 18%;
+    width: fit-content;
+    left: 15%;
+  }
+  .headerimg{
+
+  }
+  .tel {
+    color: green !important;
+    padding: 2%;
+  }
+
+  .logo {
+    width: -webkit-fill-available;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    opacity: 0.93;
+  }
+  .logo-container {
+    /* width: 90px; */
+  }
+  .logo-container2 {
+    width: 16%;
+    justify-self: center;
+    margin-left:-100px;
+  }
+    
+  .coinimg {
+    width: 1.7rem;
+    height: 1.7rem;
+  }
+
+.crypto-banner {
+    /* background-color: var(--blue-bottom-dark); */
+    background: linear-gradient(to bottom, #022643, #0072cf 100%);
+    
+    justify-content: space-evenly;
+    align-items: center; 
+    color: #cfa900;
+    margin-top:-32px;
+    font-size: 0.9rem;
+    font-weight:600;
+    padding: 0.1%;
+}
+.navbar {
+    color: white !important;   
+    background: linear-gradient(to bottom, #114810, #009d52);   
+    /* position: sticky; */
+    list-style-type: none;
+    justify-content: space-evenly;
+    text-wrap: nowrap;   
+    align-items: center; 
+    padding:.1%; 
+    position: sticky;  
+  }
+  .sub-banner {
+    /* max-width: 1250px; */
+    /* border-radius: 2rem; */
+   font-size: .75rem;
+   border: 1px solid green;
+    /* padding: 0px 20px; */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* Subtle shadow */
+  }
+.navul a{
+    color: white !important;
+    flex: 1;
+    max-width: 60%;
+    justify-content: space-between;
+    text-decoration:none;
+}
+.sub-banner img {
+  /* width: 15%; */
+  height: 70%;
+  /* aspect-ratio:2/1; */
+}
+
+
+.head a {
+  text-decoration: none;
+}
+
+
+.modal-bg {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.45);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 4;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s;
+}
+.modal-dialog {
+  max-width: 400px;
+  max-height: 400px;
+  background-color: white;
+  border-radius: 3%;
+  padding: 2%;
+}
+.bg-active {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+
+
+.main-header {
+   color: black ;
+   font-size: 1.6rem ;
+   font-family: sans-serif;
+}
+
+.head-slogan {
+  font-size:.8rem;
+  font-weight: 600;
+    line-height: 1.2;
+     /* margin-top: 5%; */
+}
+
+      
+.login-btn {
+  padding: 3px 20px;
+  /* background: transparent; */
+  cursor: pointer;
+  font-size: .6rem;
+  border-radius:2rem;
+}
+
+.search-container {
+  /* margin-top: -15px; */
+}
+
+
+.donate-link {
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  color: #6d6d6d;
+  gap: .5rem;
+}
+
+.donate-button { 
+  background-color: #28a745; /* Green background */
+  border: none; /* Remove borders */
+  color: #f7f6f6; /* White text */ 
+  padding: 12px 30px; /* Padding */ text-align: center; /* Centered text */
+  text-decoration: none; /* Remove underline */ display: inline-block; 
+  /* Get the element to be inline-block */
+  font-size: 16px; /* Increase font size */
+  margin: 4px 2px; /* Add some margin */
+  cursor: pointer;
+  /* Add a pointer cursor on hover */
+  border-radius: 12px; /* Rounded corners */
+  transition: background-color 0.3s; /* Smooth transition */ } 
+
+.donate-button:hover { background-color: #218838; /* Darker green on hover */ 
+}
+
+
+
+
+
+
+@media screen and (min-width:1440px) { 
+  .headerimg2{
+    left: clamp(26%,30%,35%);
+  }
+  }
+
+@media screen and (max-width:1040px) { 
+.headerimg2{
+  left: 7%;
+}
+}
+
+@media screen and (max-width:1040px) {
+ 
+.headerimg2{
+  left: 10%;
+}
+}
+
+@media screen and (max-width:890px) {
+.crypto-banner {
+  background: white;
+  font-weight:700;
+  }
+.render-coins {
+  gap: 3px;
+}
+.headerimg2{
+  left:10%;
+}
+.head-slogan {
+  font-size:.6rem;   
+}
+.main-header {
+  font-size: 1.4rem ;
+}
+}
+
+@media  (max-width: 720px){ 
+  .head {
+      font-size:85% ;
+      display:flex ;
+      flex-wrap: wrap;
+      justify-content: center;
+      /* min-height: 250px;  */
+      max-height: 340px;
+      /* flex-direction: column; */
+  }
+ 
+  .header-login {
+      grid-row: 3/4;
+      grid-column:1/2; 
+      
+      }
+
+  .logo-container {
+      /* width:16% ; */
+  }
+  
+  .row-2-attributes {
+    justify-content: center;
+
+  }
+  .main-header {
+    font-size:1rem;
+  }  
+
+  .logo {
+    
+    width: 140px;
+    height: 140px;
+  }
+
+  
+}

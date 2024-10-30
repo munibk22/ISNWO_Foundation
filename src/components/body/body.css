@@ -1,0 +1,170 @@
+.body-header {
+    display:grid;
+    width:100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 700px;
+    place-content:center;
+}
+legend.scheduler-border {
+    width:inherit; /* Or auto */
+    padding:0 10px; /* To give a bit of padding on the left and right */
+    border-bottom:none;
+}
+
+
+.cardcontainer{
+    background-image: linear-gradient(to top, #365c4a 0%, #1e9463 100%);
+    align-items: center;
+}
+
+
+.rightcard{
+    width:24rem;    
+    height:240px;
+color:white;
+    background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+
+    /* background-image: linear-gradient(-60deg, #16a085 0%, #f4d03f 100%); */
+
+    /* background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%); */
+
+    border-radius: 10px;
+}
+.bod{
+    width:70vw; 
+    /* background-color: #007B40; */
+    /* background-color: #00C767; */
+    /* background-color: #2B9160 !important; */
+    /* background-color: #3CC784; */
+    /* max-width: 1400px; */
+    justify-content: center;
+}
+
+.hicon{
+    font-size: 3rem;
+    margin-bottom: 15%;
+    /* color:#005d31 */
+    /* color:#8a7d42; */
+    color:var(--blue-main);
+    opacity: .9;
+}
+
+.headerb{
+    /* color:#FF8946; */
+    /* color:#b69503; */
+    color: #b69503;
+    /* color: rgb(207, 169, 0); */
+    transition: all .3s ease-in-out;
+}
+
+.headerb:hover{
+    transform: scale(1.05);             
+}
+
+/* .headerb i {
+    transition: all .4s ease-in-out;
+}
+.headerb i:is(:hover,:focus){
+    background-color:var(--rich-black-fogra-29);
+    border-radius:2rem;
+} */
+
+.container{
+    width: 75vw;
+    max-width: -webkit-fill-available;
+    justify-content: flex-start;
+
+}
+ .p1{
+    width: 21.5rem;
+    height: 26rem;
+border: 8px #284243 solid;
+
+/* height: 50px; */
+
+
+    }
+
+.p2{
+    justify-content: flex-end;
+    width: 75vw;
+    max-width: -webkit-fill-available;
+}
+    
+    
+.img1div{
+    border:6px #005d31  solid;
+    left: 21rem;
+    top: 2rem;
+    border-radius: 8px;
+}
+
+.img1{
+    width: 17rem;
+    height: 21rem;
+
+    /* background-image: url("../pics/invest.jpg"); */
+    object-fit: cover;
+
+}
+
+
+.img2div{
+    border:6px #005d31  solid;
+        right: 21rem;
+        top: 2rem;
+            border-radius: 8px;
+}
+
+.img2{
+    max-width: 20rem;
+    transition: all .4s ease-in-out;
+    border-radius: 14px
+}
+.img3{
+    max-width: 21rem;
+    transition: all .4s ease-in-out;
+    border-radius: 14px
+}
+
+
+.img3div{
+    /* border:4px #007B40 solid; */
+    left: 21rem;
+    top: 2rem;
+    }
+
+/* .img3{
+    max-width: 15rem;
+    height: 22rem;       
+    object-fit: cover;    
+    } */
+
+fieldset.scheduler-border {
+    border: solid 1px #DDD !important;
+    padding: 0 10px 10px 10px;
+    border-bottom: none;
+}
+
+legend.scheduler-border {
+    width: auto !important;
+    border: none;
+    font-size: 14px;
+}
+
+@media (max-width:665px){
+    .img3div ,.img1div,.img2div
+    {
+        display:none;
+    }
+    .p1{
+        margin:auto !important;
+
+    }
+    .hicon{
+        font-size: 2.4rem;       
+        opacity: .9;
+    }
+}
+
+

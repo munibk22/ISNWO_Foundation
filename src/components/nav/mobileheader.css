@@ -1,0 +1,51 @@
+/* Header */
+:root {
+  --shadow-1: 0 3px 14px hsla(0, 0%, 0%, 0.2);
+  --shadow-2: 0 1px 2px hsla(0, 0%, 0%, 0.2);
+  --transition-1: 0.3s ease;
+  --transition-2: 0.5s ease;
+}
+
+.header-section {
+    grid-column: 1/5;
+    /* place-self:center; */
+    min-width:100vw;   
+    background: linear-gradient(to right, #093863,
+    var(--blue-main),
+     var(--blue-main));
+  }
+
+ 
+.header-section.active {
+  box-shadow: var(--shadow-1);
+  animation: slideIn 0.5s ease-out forwards;  
+  z-index: 5;
+  display:block;
+}
+
+header {
+    display: grid;
+    place-items:center;
+    padding:.6rem;   
+  }
+
+.headerfont {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  .headerfont2{
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 300;
+  }
+
+  @keyframes slideIn {
+    0% {
+      transform: translateY(-50%);
+  }
+    100% {
+      transform: translateY(0);
+    }
+   
+  }

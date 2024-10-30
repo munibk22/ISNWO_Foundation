@@ -1,0 +1,25 @@
+
+
+/* Hero Section */
+.hero-section {
+    grid-column: 1/5;
+    /* background: url('../src/components/assests/catgirl1.jpg'); */
+    background: linear-gradient(to bottom, #114810, #009d52);   
+    width: -webkit-fill-available;
+    text-align: center;
+    padding: .8rem;
+    font-family:system-ui;
+    border: 1px solid orange;
+    color:white;
+    font-weight: 500;  
+    font-size: 1.2rem;  
+  }
+
+/* @media screen and (max-width:700px) { */
+@media screen and (max-width:5000px) {
+    .hero-section {
+        color: white;
+        font-size: .9rem; 
+        padding: .7rem;
+    }
+}

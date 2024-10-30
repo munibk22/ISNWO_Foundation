@@ -1,0 +1,37 @@
+
+  .search-form{
+   
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    min-height: 32.8px;
+    height: 40px;
+   
+  }
+  .search-button{
+   /* background-color: #3f7293 ; */
+   background-color: var(--blue-accent) ;
+    border-radius: 990px;
+    left:'-5px';
+    color:white;
+    /* padding: .6%; */
+    min-width: 14%;
+    /* align-items: center; */
+    text-align: center;
+    padding: .5em;
+    width: 5rem;
+    height: fit-content;
+  
+  }
+
+  .search-bar{
+    width: 64vw;
+    border:none;
+    /* height:145px; */
+    /* padding:10px; */
+    outline: 0px;
+    min-height:29px;
+    border-radius: 990px;
+    max-width: 15900px;
+   
+  }
