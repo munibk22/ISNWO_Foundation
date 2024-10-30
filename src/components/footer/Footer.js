@@ -23,7 +23,7 @@ function Footer({ aosStyle }) {
             <article id='contactUs' className='footer-contact'>
                 <p>Contact Us:</p>
                 <p>📞Call us at: (419) 329-0745</p>
-                <p className='footer-info-section'>📧 Email us at contact@alteromanagement.com</p>
+                <p className='footer-info-section'>📧 Email us at info@isnowfoundation.com</p>
                 <span><TiSocialAtCircular />  <TiSocialTwitter /> <TiSocialFacebook /> <TiSocialYoutube /></span>
                 {/* <p>We are always ready to assist you.</p> */}
                 <hr />
