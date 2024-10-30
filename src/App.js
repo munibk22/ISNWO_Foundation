@@ -49,7 +49,7 @@ function App() {
   return (
     // <PayPalScriptProvider options={{ "client-id": process.env.REACT_APP_PAYPAL_CLIENT_ID }}>
     <div className="app">
-      <ToastContainer />
+
       <Nav />
       <Head />
 
@@ -74,7 +74,7 @@ function App() {
 
       {/*Card Section */}
       <section className='card-section margin-top-1'  >
-
+        <ToastContainer />
         <Card article={art1} />
         <Card img={imgOne} aosStyle='fade-left' />
       </section>
