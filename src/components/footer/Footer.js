@@ -1,6 +1,9 @@
 import React from 'react';
 import './footer.css';
 import Social from './Social';
+import { TiSocialAtCircular, TiSocialTwitter, TiSocialFacebook, TiSocialYoutube } from "react-icons/ti";
+
+
 
 function Footer({ aosStyle }) {
     return (
@@ -19,9 +22,9 @@ function Footer({ aosStyle }) {
             </div>
             <article id='contactUs' className='footer-contact'>
                 <p>Contact Us:</p>
-                <p>📞Call us at: (419) 329-0745
-                </p>
-                <span className='footer-info-section'>📧 Email us at contact@alteromanagement.com</span>
+                <p>📞Call us at: (419) 329-0745</p>
+                <p className='footer-info-section'>📧 Email us at contact@alteromanagement.com</p>
+                <span><TiSocialAtCircular />  <TiSocialTwitter /> <TiSocialFacebook /> <TiSocialYoutube /></span>
                 {/* <p>We are always ready to assist you.</p> */}
                 <hr />
                 <Social />
