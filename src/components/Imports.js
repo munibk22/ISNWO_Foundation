@@ -7,7 +7,7 @@ import HeadModule from './head/HeadModule.js';
 import Nav from './head/Nav.js';
 import Banner from './head/Banner.js';
 import Hero from './hero/Hero.js';
-import Pricing from './pricing/Pricing.js';
+import Payments from './pricing/Payments.js';
 import Card from './card/Card.js';
 import Footer from './footer/Footer.js';
 import Form from './form/Form.js';
@@ -38,11 +38,11 @@ export const art1 = <article className='card-article' data-aos="fade-right">
 
   </ul>
 </article>;
-export const art2 = <h4 className='card-article '>
+export const art2 = <h4 className='card-article payment-article'>
   "Remember, even a small act of charity can have a profound impact. The Prophet ﷺ said: 'Protect yourself from hellfire, even with half a date.'"
 </h4>;
 
-export const pricing1 = <Pricing />;
+export const pricing1 = <Payments />;
 export const imgOne = <img alt='Group charity poster' src='https://i.imgur.com/d2ClI7D.png' className='imgOne ' />;
 export const img2 = <img alt='Donation poster' src='https://i.imgur.com/8KJ2Kmz.png' className='img3 box-' />;
 
@@ -73,7 +73,7 @@ export {
   MobileHeader,
   Hero,
   Main1, Main2,
-  Pricing,
+  Payments,
   AOS,
   // PricePanel,Team ,
   ToastContainer,

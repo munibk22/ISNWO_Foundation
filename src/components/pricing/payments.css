@@ -1,0 +1,9 @@
+
+
+.pricing-section {
+    grid-column:1/5;
+}
+.price-container {
+    font-size:smaller;
+    color:#838383;
+}

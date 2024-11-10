@@ -41,8 +41,8 @@ img {
 
 .card-article {
     display: grid;
-    place-content:center;
-    gap: .5rem;
+    place-items:center;
+    gap: 1.5rem;
     /* color: var(--blue-accent); */
     font-family:  Arial, Helvetica, sans-serif;
     width:clamp(350px, 365px,450px);
@@ -74,6 +74,9 @@ img {
 .arrow {
     color:chartreuse;
     text-shadow: 0px 1px 2px #000000;
+}
+.payment-article {
+    color:#838383;
 }
 
 @media screen and (max-width:570){   

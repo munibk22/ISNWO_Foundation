@@ -1,20 +1,14 @@
 import React from 'react';
-import './pricing.css'
+import './payments.css'
 import PayPalDonation from '../donate/PayPalDonation';
-// import DonateButton from '../donate/DonateButton';
 
 
 function Pricing() {
     return (<>
-        <article className='card-article'>            
-                <h4>Paypal, Zelle, and Venmo:</h4>
-                {/* <DonateButton />  */}
-                <div id="donate-button-container">
-                    
+        <article className='card-article price-container'>            
+                <h4>-We accept Paypal, Zeffy, or Zelle-</h4> 
                     {/* <img src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" alt="UTF-8" /> */}
                     <PayPalDonation />
-
-                </div>
         </article>
     </>
     );
