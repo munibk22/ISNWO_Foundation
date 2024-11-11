@@ -3,6 +3,8 @@ import { PayPalButtons } from '@paypal/react-paypal-js';
 
 const ZeffyDonateButton = () => {
     const [scriptLoaded, setScriptLoaded] = useState(false);
+    const mainImg = 'https://cdn.nwe.io/files/x/a1/4d/85c09937eab7c4f56097d36f2522.jpg';
+    const altImg = 'https://i.imgur.com/rOEDdCm.png[/img]';
 
     useEffect(() => {
       const script = document.createElement('script');
@@ -13,7 +15,7 @@ const ZeffyDonateButton = () => {
       document.getElementById('donateButton').addEventListener('click', function() { 
         try {
           const width = 600;
-  const height = 400;
+        const height = 400;
           const left = (window.screen.width - width) / 2;
           const top = (window.screen.height - height) / 2;
           const featureStr = `width=${width},height=${height},left=${left},top=${top},menubar=no,toolbar=no,location=no,status=no`;
@@ -37,7 +39,9 @@ const ZeffyDonateButton = () => {
     return (
       <>
       <hr />
-      <span style={{display:"flex", alignItems:"end"}}> Donate with  <img src='https://i.imgur.com/rOEDdCm.png[/img]' alt='Zeffy logo' />
+      <span style={{display:"flex", alignItems:"center"}}> Donate with  <img
+      //  src=
+       src= {mainImg ? mainImg : altImg}  width='120'  alt='Zeffy logo' />
       </span> 
       <button id='donateButton' type='button'
       zeffy-form-link="https://www.zeffy.com/embed/donation-form/96492c35-dabe-406a-a140-fe24ba0796d6?modal=true"
