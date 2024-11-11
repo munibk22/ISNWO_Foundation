@@ -37,7 +37,7 @@ const ZeffyDonateButton = () => {
     return (
       <>
       <hr />
-      <span> Donate with  <img src='https://i.imgur.com/rOEDdCm.png[/img]' alt='Zeffy logo' />
+      <span style={{display:"flex", alignItems:"end"}}> Donate with  <img src='https://i.imgur.com/rOEDdCm.png[/img]' alt='Zeffy logo' />
       </span> 
       <button id='donateButton' type='button'
       zeffy-form-link="https://www.zeffy.com/embed/donation-form/96492c35-dabe-406a-a140-fe24ba0796d6?modal=true"
