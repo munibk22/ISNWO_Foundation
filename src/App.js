@@ -127,7 +127,7 @@ function App() {
       <div className='hero-section mid-hero margin-top-3'>
 
         <Hero text={<span className="text-shadow" style={{ fontSize: "1.5rem" }}><span className="hide">⬇️</span>
-          Connect with ISNWO Foundation ⬇️</span>}
+          Connect with ISNWO Foundation</span>}
           className={"text-shadow"} />
 
       </div>

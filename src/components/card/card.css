@@ -4,7 +4,7 @@
     display: flex;
     gap: 0 4rem;   
     line-height: 2;
-    cursor:pointer;
+    /* cursor:pointer; */
     /* min-width: 50vw;
     /* width: 100%; */
     /* max-width:max-content; */
