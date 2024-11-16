@@ -63,7 +63,7 @@ export default function HeadModule() {
                     }}>Serving Communities in Northwest Ohio</p>
                     <br />
                     <div className="">
-                        <p>3950 Sunforest Court</p>
+                        <p>850 S McCord</p>
                         <a href="tel:6368754054" className="tel" >Call us 419-329-0745 </a>
                     </div>
                 </div>
