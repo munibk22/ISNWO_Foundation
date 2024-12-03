@@ -51,6 +51,7 @@ img {
 .card-article-list {
     display: grid;
     gap: 1rem;
+    font-size:smaller;
 }
 
 .clear-pricing {
