@@ -13,7 +13,7 @@
 .card-section{
     /* grid-column:1/5; */
     display:flex;
-    gap:1rem 2rem;
+    /* gap:1rem 2rem; */
 }
 .card {
     display: flex;
@@ -45,7 +45,7 @@ img {
     gap: 1.5rem;
     /* color: var(--blue-accent); */
     font-family:  Arial, Helvetica, sans-serif;
-    width:clamp(350px, 365px,450px);
+    width:clamp(350px, 365px,650px);
     letter-spacing: .1px;
 }
 .card-article-list {
@@ -65,9 +65,7 @@ img {
     gap:1rem;
 }
 
-.diamond::before {
-    content:'💎 '
-}
+
 .card-article li::before {
     content:'➡️ ';
   }

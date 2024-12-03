@@ -7,7 +7,7 @@ import { useEffect, useRef, useState } from 'react';
 import {
   Head, Nav, Banner, BodyHeader, Hero, Card, Footer, Form, MobileHeader, Main1, Main2,
   AOS, ToastContainer,
-  art1, art2, pricing1, imgOne, img2
+  art1, art2, art3, pricing1, imgOne, img2
 } from './components/Imports.js';
 
 
@@ -59,7 +59,7 @@ function App() {
     <MobileHeader  />
     </section> */}
 
-      <BodyHeader />
+      {/* <BodyHeader /> */}
 
       {/*Hero Section 1*/}
       <div className='hero-section text-shadow'>
@@ -69,21 +69,21 @@ function App() {
       </div>
 
       {/* Info Section */}
-      <section className='info-section ' data-aos="zoom-in-right"
-      ><h4>Our mission is to empower individuals and communities through sustainable charitable initiatives.</h4></section>
+      {/* <section className='info-section ' data-aos="zoom-in-right" ><h4>Our mission is to empower our community through sustainable charitable initiatives.</h4></section> */}
 
       {/*Card Section */}
       <section className='card-section margin-top-1'  >
         <ToastContainer />
         <Card article={art1} />
-        <Card img={imgOne} aosStyle='fade-left' />
+        <Card article={art3} />
+        {/* <Card img={imgOne} aosStyle='fade-left' /> */}
       </section>
 
 
       {/*Mid-Hero Section 2*/}
       <div className='hero-section mid-hero margin-top-3 text-shadow'>
 
-        <Hero text={`About Us`}
+        <Hero text={`Meet our Founders`}
           className={"clear-pricing "} />
 
       </div>

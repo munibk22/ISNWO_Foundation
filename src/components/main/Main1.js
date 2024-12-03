@@ -6,29 +6,24 @@ function Main1() {
 
         <ul>
             <details>
-                <summary>Mission Statement</summary>
-                <p>Our mission is to empower individuals and communities through sustainable charitable initiatives.</p>
+                <summary>Sami Boraby - <em className='leader-title'>President</em></summary>
+                <p>President</p>
             </details>
             <details>
-                <summary>Vision Statement 🎯  </summary>
-                <p>To create a community where everyone has the opportunity to thrive.</p>
+                <summary>Mehmood Rashid - <em className='leader-title'>VP</em></summary>
+                <p>VP</p>
             </details>
             <details>
-                <summary>Core Values</summary>
-                <p>Integrity, Compassion, Transparency, Accountability. </p>
+                <summary>Sahib Hasan - <em className='leader-title'>Treasurer</em></summary>
+                <p>Treasurer</p>
             </details>
             <details>
-                <summary>Our Impact 🌟</summary>
-                <p></p>
+                <summary>Sherrif Hefzy - <em className='leader-title'>Secretary</em></summary>
+                <p>Secretary</p>
             </details>
             <details>
-                <summary>Transparency:</summary>
-                <p>Full accounting of donations and no hidden fees. </p>
-            </details>
-
-            <details>
-                <summary>Donate Today and Make a Difference!</summary>
-                <p>Your donation can change lives. Start making a difference today. </p>
+                <summary>Nadeem Salem - <em className='leader-title'>Financial Advisor</em></summary>
+                <p>Financial Advisor</p>
             </details>
         </ul>
     </>);

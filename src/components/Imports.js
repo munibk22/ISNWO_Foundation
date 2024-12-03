@@ -26,17 +26,17 @@ import 'react-toastify/dist/ReactToastify.css';
 
 
 export const art1 = <article className='card-article' data-aos="fade-right">
-  <p>At ISNWO Foundation, your donations make a tangible difference in the lives of those in need. Join us in our mission to alleviate poverty,
-    hunger, and suffering in our community.
+  <p>At the Islamic Society of North West Ohio (ISNOW) Foundation, our mission is to support the Islamic Society of Northwest Ohio and foster a community rooted
+    in the principles of Islam, promoting peace, compassion, and social justice.
   </p>
+  <p> We are dedicated to foster a community rooted in the principles of Islam, promoting peace,
+    compassion, and social justice.</p>
   <ul className='card-article-list'>
-    <li>Emergency Relief: Providing immediate assistance to disaster-affected communities.</li>
-    <li>Water Projects: Delivering clean water solutions to water-scarce regions. </li>
-    <li>Food Security: Distributing food packages to families in crisis.</li>
-    <li>Medical Aid: Facilitating access to essential healthcare services.</li>
-    <li>Education: Building schools and supporting students' educational journey.</li>
-
+    <li><strong>Community Outreach:</strong> Actively engaging with our local and global communities to provide support, build relationships, and address social
+      issues through Islamic values and teachings.</li>
+    <li><strong>Education and Awareness:</strong>  Providing comprehensive Islamic education and resources to enhance understanding and practice of the faith. </li>
   </ul>
+
 </article>;
 export const art2 = <h4 className='card-article payment-article'>
   "Remember, even a small act of charity can have a profound impact. The Prophet ﷺ said: 'Protect yourself from hellfire, even with half a date.'"
@@ -45,7 +45,15 @@ export const art2 = <h4 className='card-article payment-article'>
 export const pricing1 = <Payments />;
 export const imgOne = <img alt='Group charity poster' src='https://i.imgur.com/d2ClI7D.png' className='imgOne ' />;
 export const img2 = <img alt='Donation poster' src='https://i.imgur.com/8KJ2Kmz.png' className='img3 box-' />;
+export const art3 = <article className='card-article' data-aos="fade-left">
+  <ul className='card-article-list'>
 
+    <li><strong>Community Support:</strong> Offering support and services to meet the spiritual, social, and economic needs of our community members.</li>
+    <li><strong>Charitable Initiatives:</strong> Engaging in charitable activities to alleviate poverty, support the needy, and contribute to the well-being of society.</li>
+    <li><strong>Interfaith Dialogue:</strong> Encouraging respectful and meaningful dialogue between different faith communities to promote mutual understanding and harmony.</li>
+    <li><strong>Youth Empowerment:</strong> Empowering the younger generation with the knowledge, skills, and values to become responsible and active members of society.</li>
+  </ul>
+</article>;
 
 
 

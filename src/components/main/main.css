@@ -78,7 +78,9 @@ main {
     color: #ff00b3;
     font-size: .95rem;;
   }
-
+.leader-title {
+  opacity:.8;
+}
 
 
   @media screen and (max-width:580px) {
@@ -98,7 +100,7 @@ main {
         /* align-items: center; */
       }      
       .card-article {
-        max-width:330px;
+        max-width:350px;
       }
       .card-pricing,.card-section {   
         flex-direction:column;
