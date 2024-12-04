@@ -83,7 +83,7 @@ function App() {
       {/*Mid-Hero Section 2*/}
       <div className='hero-section mid-hero margin-top-3 text-shadow'>
 
-        <Hero text={`Meet our Founders`}
+        <Hero text={`Meet our Members`}
           className={"clear-pricing "} />
 
       </div>

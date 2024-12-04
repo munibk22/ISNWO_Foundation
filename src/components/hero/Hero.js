@@ -4,15 +4,15 @@ import './hero.css';
 
 
 
-function Hero({text,className,anchor,img}) {   
-  return (<> 
-  {text ? text :
-    <div style={{fontFamily:'"Poetsen One"'}}
-    className={className}>
-    </div>}
-      {img ? img : null}
-      
-    </>
+function Hero({ text, className, anchor, img }) {
+  return (<>
+    {text ? text :
+      <div style={{ fontFamily: '"Poetsen One"' }}
+        className={className}>
+      </div>}
+    {img ? img : null}
+
+  </>
   );
 }
 
