@@ -69,7 +69,7 @@ export default function Form({ aosStlye }) {
         name='user_email'
         placeholder='Enter your email..' />
 
-      <input type='phone' name='user_phone' placeholder='Enter Contact #' />
+      <input type='phone' name='user_phone' placeholder='Enter Contact Number' />
 
       <textarea
         name='message'

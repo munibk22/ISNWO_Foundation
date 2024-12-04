@@ -16,7 +16,7 @@
 }
 .contactForm input, .modal-submit-button, textarea{
   height: 50px;
-  padding: 8px;
+  padding: 3px;
   font-size: 18px;
   caret-color: #0902cf;
   border-radius: .5rem;

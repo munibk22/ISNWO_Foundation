@@ -126,7 +126,7 @@ function App() {
       {/*Mid-Hero Section-4 Form Header */}
       <div className='hero-section mid-hero margin-top-3'>
 
-        <Hero text={<span className="text-shadow" style={{ fontSize: "1.5rem" }}><span className="hide">⬇️</span>
+        <Hero text={<span className="text-shadow" style={{}}><span className="hide">⬇️</span>
           Connect with ISNWO Foundation</span>}
           className={"text-shadow"} />
 
@@ -136,7 +136,7 @@ function App() {
       <main className="body-section ">
 
         {/* Section for Form submission */}
-        <section className="form-section " id='formId'>
+        <section className="form-section " id='formId' > 
           <Form aosStlye="zoom-in" />
         </section>
       </main>
