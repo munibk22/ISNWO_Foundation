@@ -25,6 +25,10 @@ function Main1() {
                 <summary>Nadeem Salem - <em className='leader-title'>Financial Advisor</em></summary>
                 <p>Financial Advisor</p>
             </details>
+            <details>
+                <summary>Mujeeb Sheikh - <em className='leader-title'>Board Member</em></summary>
+                <p>Board Member</p>
+            </details>
         </ul>
     </>);
 }

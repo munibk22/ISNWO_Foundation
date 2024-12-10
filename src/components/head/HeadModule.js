@@ -48,12 +48,6 @@ export default function HeadModule() {
             {/* Row-2 Col-3 logo-container2 */}
 
             <div className="flex alignitems headrow2 headrow-2-attributes">
-                {/* <div className="
-                 headerimg headrow2b mobilehide">
-                    <img src='https://i.imgur.com/KcNlmcE.png[/img]'
-                        alt='company logo' style={{ width: "", float: '' }}
-                        className="logo drop-shadow-filter" />
-                </div> */}
 
                 <div className="font500 textalign text-shadow-light" data-aos='zoom-in'>
                     <h1 className="main-header">
@@ -63,8 +57,9 @@ export default function HeadModule() {
                     }}>Serving Communities in Northwest Ohio</p>
                     <br />
                     <div className="">
-                        <p>850 S McCord</p>
-                        <a href="tel:6368754054" className="tel" >Call us 419-329-0745 </a>
+                        <p>PO Box 67</p>
+                        <p>Holland, OH 43528</p>
+                        {/* <a href="tel:6368754054" className="tel" >Call us 419-329-0745 </a> */}
                     </div>
                 </div>
 

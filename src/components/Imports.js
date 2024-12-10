@@ -26,11 +26,11 @@ import 'react-toastify/dist/ReactToastify.css';
 
 
 export const art1 = <article className='card-article' data-aos="fade-right">
-  <p>At the Islamic Society of North West Ohio (ISNOW) Foundation, our mission is to support the Islamic Society of Northwest Ohio and foster a community rooted
+  <p>Our mission is to support the Islamic Society of Northwest Ohio and foster a community rooted
     in the principles of Islam, promoting peace, compassion, and social justice.
   </p>
-  <p> We are dedicated to foster a community rooted in the principles of Islam, promoting peace,
-    compassion, and social justice.</p>
+  {/* <p> We are dedicated to foster a community rooted in the principles of Islam, promoting peace,
+    compassion, and social justice.</p> */}
   <ul className='card-article-list'>
     <li><strong>Community Outreach:</strong> Actively engaging with our local and global communities to provide support, build relationships, and address social
       issues through Islamic values and teachings.</li>
@@ -46,8 +46,7 @@ export const pricing1 = <Payments />;
 export const imgOne = <img alt='Group charity poster' src='https://i.imgur.com/d2ClI7D.png' className='imgOne ' />;
 export const img2 = <img alt='Donation poster' src='https://i.imgur.com/8KJ2Kmz.png' className='img3 box-' />;
 export const art3 = <article className='card-article' data-aos="fade-left">
-  <ul className='card-article-list'>
-
+  <ul className='card-article-list' style={{ marginTop: '10px' }}>
     <li><strong>Community Support:</strong> Offering support and services to meet the spiritual, social, and economic needs of our community members.</li>
     <li><strong>Charitable Initiatives:</strong> Engaging in charitable activities to alleviate poverty, support the needy, and contribute to the well-being of society.</li>
     <li><strong>Interfaith Dialogue:</strong> Encouraging respectful and meaningful dialogue between different faith communities to promote mutual understanding and harmony.</li>

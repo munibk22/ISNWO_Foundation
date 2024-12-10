@@ -22,10 +22,9 @@ function Footer({ aosStyle }) {
             </div>
             <article id='contactUs' className='footer-contact'>
                 <p>Contact Us:</p>
-                <p>📞Call us at: (419) 329-0745</p>
-                <p className='footer-info-section'>📧 Email us at info@isnowfoundation.com</p>
+                {/* <p>📞Call us at: (419) 329-0745</p> */}
+                <p className='footer-info-section'>📧 Email us at contact@isnwofoundation.org</p>
                 <span><TiSocialAtCircular />  <TiSocialTwitter /> <TiSocialFacebook /> <TiSocialYoutube /></span>
-                {/* <p>We are always ready to assist you.</p> */}
                 <hr />
                 <Social />
             </article>

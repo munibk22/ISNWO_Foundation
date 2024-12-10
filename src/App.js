@@ -136,7 +136,7 @@ function App() {
       <main className="body-section ">
 
         {/* Section for Form submission */}
-        <section className="form-section " id='formId' > 
+        <section className="form-section " id='formId' >
           <Form aosStlye="zoom-in" />
         </section>
       </main>
