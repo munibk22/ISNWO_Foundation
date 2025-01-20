@@ -4,7 +4,7 @@
     min-height: 35vh;
     /* background: linear-gradient(to bottom, #114810, #009d52);      */
     display:grid;
-    gap: .5rem;
+    /* gap: .5rem; */
     grid-template-columns: 1fr 3fr 1fr;
     grid-template-rows:  1fr .5fr;
     align-items: center;
@@ -262,6 +262,7 @@
       /* min-height: 250px;  */
       max-height: 340px;
       /* flex-direction: column; */
+      gap: .2rem;
   }
  
   .header-login {
