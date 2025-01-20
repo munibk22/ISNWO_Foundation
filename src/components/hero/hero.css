@@ -7,12 +7,12 @@
     background: linear-gradient(to bottom, #114810, #009d52);   
     width: -webkit-fill-available;
     text-align: center;
-    padding: .15rem;
+    padding: .08rem;
     font-family:system-ui;
     border: 1px solid orange;
     color:white;
-    font-weight: 500;  
-    font-size: 1.2rem;  
+    /* font-weight: 500;   */
+    /* font-size: 1.2rem;   */
   }
 
 /* @media screen and (max-width:700px) { */

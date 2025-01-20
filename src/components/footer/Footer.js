@@ -39,8 +39,8 @@ function Footer({ aosStyle }) {
                 <br></br>
                 <div id="app">
                 </div>
-                <a href="https://theperfectdev.info/" target="blank" className="anchor">
-                    @ThePerfectDev</a>
+                {/* <a href="https://theperfectdev.info/" target="blank" className="anchor">
+                    @ThePerfectDev</a> */}
             </div>
 
 

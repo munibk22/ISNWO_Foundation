@@ -152,6 +152,10 @@ legend.scheduler-border {
     font-size: 14px;
 }
 
+.secondary-heading {
+    color:#747272;
+}
+
 @media (max-width:665px){
     .img3div ,.img1div,.img2div
     {
