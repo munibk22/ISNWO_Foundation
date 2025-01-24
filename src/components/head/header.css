@@ -1,7 +1,7 @@
 
 .head {
     /* width:100vw;     */
-    min-height: 35vh;
+    min-height: 30vh;
     /* background: linear-gradient(to bottom, #114810, #009d52);      */
     display:grid;
     /* gap: .5rem; */
@@ -19,7 +19,7 @@
     grid-row: 2/3;
   }
   .headrow2 {
-    grid-row: 3/4;
+    grid-row: 1/2;
   }
   .headrow2b {
     width: 250px;
@@ -27,7 +27,7 @@
     place-items: center;
   }
   .headrow3 {
-    grid-row: 4/5;
+    grid-row: 2/3;
   }
   .headrow4 {
     grid-row: 5/6;

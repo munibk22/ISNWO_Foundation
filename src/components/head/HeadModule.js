@@ -11,7 +11,7 @@ export default function HeadModule() {
     return (
         <section className="head relative" id="home">
             {/* Row-Top-Spacer */}
-            <section className="mobilehide headrow0"> </section>
+            {/* <section className="mobilehide headrow0"> </section> */}
             {/* Row-1 */}
             {/* Row-1 Col-1/2 */}
             {/* <div className="headrow1 mobilehide"></div> */}
@@ -20,7 +20,7 @@ export default function HeadModule() {
 
             {/* <HeadSlogan /> */}
             {/* <img src='https://i.imgur.com/KcNlmcE.png' alt='ISNWO logo' className="logo drop-shadow-filter desktophide" /> */}
-            <div></div>
+
 
             {/* Row-1 Col-2 */}
             {/* <section className="mobilehide headrow1 search-container">
