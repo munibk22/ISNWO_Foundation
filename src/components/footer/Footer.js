@@ -9,9 +9,9 @@ function Footer({ aosStyle }) {
     return (
         <footer className='contact' data-aos={aosStyle} >
             <div>
-                <div className="textalign padding1" style={{ marginTop: '3%' }}>
+                {/* <div className="textalign padding1" style={{ marginTop: '3%' }}>
                     <h2>Visit Us:</h2>
-                </div>
+                </div> */}
                 <div className="flex justify margintop " style={{ width: "auto" }}>
                     {/* <iframe title="stlouis"
 
