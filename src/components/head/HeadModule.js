@@ -57,6 +57,7 @@ export default function HeadModule() {
                     }}>Serving Communities in Northwest Ohio</p>
                     <br />
                     <div className="">
+                        <p>6923 Angola Road</p>
                         <p>PO Box 67</p>
                         <p>Holland, OH 43528</p>
                         {/* <a href="tel:6368754054" className="tel" >Call us 419-329-0745 </a> */}
